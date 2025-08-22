@@ -1,0 +1,276 @@
+* {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 170px;
+        ;
+        height: 60px;
+    }
+
+    .item ul {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+
+    .item ul li {
+        list-style: none;
+        display: flex;
+        margin-right: 10px;
+        cursor: pointer;
+
+
+    }
+
+    .item ul :nth-child(16) {
+        border: 2px solid black;
+    }
+
+    .item ul span {
+        padding: 0 5px;
+    }
+
+    .btn {
+
+        display: flex;
+
+
+
+    }
+    .item-lang{
+        padding-top: 18px;
+    }
+
+    .btn div img {
+        width: 20px;
+        height: 20px;
+        padding-top: 10px;
+        margin-left: 2rem;
+        cursor: pointer;
+    }
+
+    .btn p {
+        margin: 0 20px;
+        font-weight: bold;
+
+    }
+
+    .lang {
+        padding:13px  0px;
+        margin-left: 5px;
+        
+
+
+    }
+
+
+    .item :nth-child(last) {
+        cursor: pointer;
+    }
+
+    .btn button {
+        cursor: pointer;
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font {
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        font-weight: 500px;
+        padding-top: 70px;
+    }
+
+    .bold {
+        font-size: 25px;
+        font-weight: px;
+        padding: 23px;
+        width: 66vw;
+        text-align: center;
+    }
+
+    .download {
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #00b6d1;
+        color: whitesmoke;
+        font-size: large;
+        font-weight: 700;
+        cursor: pointer;
+
+
+    }
+
+    .download:hover {
+        background-color: #049bb2;
+    }
+
+    .circle-logo {
+        display: flex;
+        width: 60vw;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 0 45px 120px;
+
+
+
+
+    }
+
+    .circle-logo img {
+        width: 60px;
+
+    }
+
+    .circle-logo span {
+        font-size: x-large;
+        padding-left: 1rem;
+
+    }
+
+    .circle-logo p {
+        font-size: smaller;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+
+    .item2 {
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        /* padding: 23px;
+        width: 250px; */
+    }
+
+    .last {
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        gap: 1rem;
+        /* max-width: 1200px;
+        margin-left: 200px; */
+    }
+
+    .item-lang {
+        padding-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 700;
+    }
+
+    .btn-green {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 13px;
+        background-color: #5cb85c;
+        border: none;
+        border-radius: 8px;
+        color: #f9f9f9;
+        font-weight: bold;
+        cursor: pointer;
+        font-size:80% ;
+        
+    }
+    .btn-green a {
+text-decoration: none;
+color: white;
+    }
+    .center {
+        padding-top: 25px;
+      text-align: center;
+      justify-content: center;
+      text-align: center;
+display: flex;
+    }
+
+    .hash {
+
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        padding-top: 8px;
+    }
+
+    .size {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8px;
+        padding: 7px;
+
+    }
+
+    .a38 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8px;
+        margin-top: 5px;
+
+
+    }
+
+    .cek {
+        display: flex;
+        margin-right: 200px;
+        margin-top: 30px;
+
+    }
+
+    .cntry {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+
+
+    }
+
+    @media screen and (max-width :1059px) {
+        .last {
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            padding-left: 140px;
+
+        }
+    }
+    @media screen and (max-width :800px) {
+        .last{
+            grid-template-columns: 1fr ;
+            justify-content: center;
+               align-items: center;
+               margin: auto;
+        }
+        
+    }
+       @media  (max-widt: 900px) {
+        .circle-logo{
+            
+        }
+        
+       }
